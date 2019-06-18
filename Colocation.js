@@ -75,11 +75,11 @@ class Colocation extends React.Component {
             {this.state.users.map(user => {
               return (
                 <tbody>
-                  <tr key={user.id}>
-				    <td>{user.name}</td>
+                    <tr key={user.id}>
+		    <td>{user.name}</td>
                     <td>{user.standard}</td>
                     <td>{user.premium}</td>
-					<td>{user.allinclusive}</td>
+		    <td>{user.allinclusive}</td>
                    
                   </tr>
                 </tbody>
